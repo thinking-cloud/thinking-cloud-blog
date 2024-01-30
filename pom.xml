@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>tc.blog</groupId>
+	<artifactId>thining-cloud-blog</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>thinking.cloud.framework</groupId>
+		<artifactId>thinking-cloud-framework</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath />
+	</parent>
+
+	<properties>
+		<java.version>11</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<thinking.cloud.framework.version>1.0.0-SNAPSHOT</thinking.cloud.framework.version>
+		<tc.blog.version>1.0.0-SNAPSHOT</tc.blog.version>
+	</properties>
+
+	<dependencyManagement>
+
+	</dependencyManagement>
+
+</project>
